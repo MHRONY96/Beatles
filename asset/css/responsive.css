@@ -1,0 +1,259 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) {
+
+  /* header part responsive start */
+  .welcome p {
+    text-align: center;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  /* header part responsive end */
+
+  /* nav part responsive start */
+  .navbar-nav .nav-item .nav-link {
+    text-align: center;
+  }
+
+  /* nav part responsive end */
+
+  /* banner part responsive start */
+  .ban_content {
+    text-align: center;
+  }
+
+  .ban_content h1 {
+    font-size: 30px;
+  }
+
+  /* banner part responsive end */
+
+  /* about part responsive start  */
+  .aboutContent p {
+    text-align: justify;
+    line-height: 23px;
+  }
+
+  /* about part responsive end */
+
+  /* service part responsive start  */
+  .serviceMain {
+    margin-top: 55px;
+  }
+
+  .serviceIconMain {
+    left: 42%;
+  }
+
+  /* service part responsive end */
+
+  /* Portfolio part responsive start */
+  .bigImg {
+    margin-bottom: 20px;
+  }
+
+  /* Portfolio part responsive end */
+
+  /* testimonial part responsive start */
+  .pyramid {
+    left: 47%;
+  }
+
+  .testimonialImg {
+    margin-top: 20px;
+  }
+
+  /* testimonial part responsive start */
+
+  /* footer part responsive start */
+  footer {
+    text-align: center;
+  }
+
+  .footerSmall {
+    display: none;
+  }
+
+  .footerIcon a {
+    margin-left: 24px;
+  }
+
+  .finalFooter p {
+    font-size: 13px;
+  }
+
+  /* footer part responsive end */
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width:576px) and (max-width:767px) {
+
+  /* nav part responsive start */
+  .navbar-nav .nav-item .nav-link {
+    text-align: center;
+  }
+
+  /* nav part responsive end */
+
+  /* about part responsive start  */
+  .aboutContent p {
+    text-align: justify;
+    line-height: 23px;
+  }
+
+  /* about part responsive end */
+
+  /* service part responsive start  */
+  .serviceMain {
+    margin-top: 55px;
+  }
+
+  .serviceIconMain {
+    left: 211px;
+  }
+
+  /* service part responsive end */
+
+  /* Portfolio part responsive start */
+  .bigImg {
+    margin-bottom: 20px;
+  }
+
+  /* Portfolio part responsive end */
+
+  /* testimonial part responsive start */
+  .pyramid {
+    left: 47%;
+  }
+
+  .testimonialImg {
+    margin-top: 20px;
+  }
+
+  /* testimonial part responsive start */
+
+  .aboutContent p {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 15px;
+    padding-top: 0px;
+    line-height: 23px;
+    color: #555555;
+  }
+
+  .footerSmall {
+    display: none;
+  }
+
+  /* footer part responsive start */
+  footer {
+    text-align: center;
+  }
+
+  .footerSmall {
+    display: none;
+  }
+
+  .footerIcon a {
+    margin-left: 24px;
+  }
+
+  .finalFooter p {
+    font-size: 13px;
+  }
+
+  /* footer part responsive end */
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width:768px) and (max-width:991px) {
+
+  /* about part responsive start  */
+  .aboutContent p {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 13px;
+    padding-top: 5px;
+    line-height: 25px;
+    color: #555555;
+    text-align: justify;
+  }
+
+  /* about part responsive end */
+
+  /* service part responsive start  */
+  .serviceMain {
+    margin-top: 55px;
+  }
+
+  .serviceIconMain {
+    left: 33%;
+  }
+
+  /* service part responsive end */
+
+  /* testimonial part responsive start */
+  .pyramid {
+    left: 45%;
+  }
+
+  .testimonialImg {
+    margin-top: 20px;
+  }
+
+  /* testimonial part responsive start */
+
+  /* footer part responsive start */
+  footer {
+    text-align: center;
+  }
+
+  .footerSmall {
+    display: none;
+  }
+
+  .footerIcon a {
+    margin-left: 24px;
+  }
+
+  .finalFooter p {
+    font-size: 13px;
+  }
+
+  /* footer part responsive end */
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width:992px) and (max-width:1199px) {
+
+  /* service part responsive start  */
+  .serviceMain {
+    margin-top: 55px;
+  }
+
+  .serviceIconMain {
+    left: 37%;
+  }
+
+  /* service part responsive end */
+
+  /* testimonial part responsive start */
+  .pyramid {
+    left: 46%;
+  }
+
+  .testimonialImg {
+    margin-top: 20px;
+  }
+
+  /* testimonial part responsive start */
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width:1200px) and (max-width:1399px) {}
+
+/* X-Large devices (large desktops) */
+@media (min-width:1400px) {}
